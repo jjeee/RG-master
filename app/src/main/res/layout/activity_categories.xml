@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_categories"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".CategoryListActivity">
+
+    <TextView
+        android:id="@id/tv_categories_title"
+        android:text="@string/categories_title"
+        style="@style/TitleTextView" />
+
+    <GridLayout
+        android:columnCount="4"
+        android:rowCount="5"
+        style="@style/GridLayout">
+
+        <ImageButton
+            android:id="@id/btn_categories_meat"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:tag="meat"
+            android:src="@drawable/btn_meat_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_veg"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:tag="vegetable"
+            android:src="@drawable/btn_vege_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_fruit"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:tag="fruit"
+            android:src="@drawable/btn_fruit_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_dairy"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:tag="dairy"
+            android:src="@drawable/btn_dairy_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_nut"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:tag="nut"
+            android:src="@drawable/btn_nut_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_grain"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:tag="grain"
+            android:src="@drawable/btn_grain_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_sea"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:tag="seafood"
+            android:src="@drawable/btn_seafood_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_spice"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:tag="spice"
+            android:src="@drawable/btn_spice_normal"
+            style="@style/GridButton" />
+
+        <ImageButton
+            android:id="@id/btn_categories_oil"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:tag="oil"
+            android:src="@drawable/btn_oil_normal"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@id/btn_all_back"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="@string/all_back"
+            style="@style/NavigationButton" />
+
+        <Button
+            android:id="@id/btn_categories_find"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:text="@string/categories_find"
+            style="@style/NavigationButton" />
+
+        <Button
+            android:id="@id/btn_all_clear"
+            android:layout_column="3"
+            android:layout_row="4"
+            android:text="@string/all_clear"
+            style="@style/NavigationButton" />
+
+    </GridLayout>
+
+</LinearLayout>

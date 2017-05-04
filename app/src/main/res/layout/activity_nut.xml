@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nut"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".NutListActivity">
+
+    <TextView
+        android:text="@string/nut_title"
+        style="@style/TitleTextView" />
+
+    <GridLayout
+        android:columnCount="4"
+        android:rowCount="5"
+        style="@style/GridLayout">
+
+        <Button
+            android:id="@+id/btn_nut_1"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="Peanut"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_2"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="Walnut"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_3"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="Pistachio"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_4"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:text="Almond"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_5"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:text="Peanut\nButter"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_6"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="Hazelnut"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_7"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:text="Macadamia"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_8"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:text="Pecan"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@+id/btn_nut_9"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="Cashew"
+            style="@style/GridButton" />
+
+        <Button
+            android:id="@id/btn_all_back"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="@string/all_back"
+            style="@style/NavigationButton" />
+
+        <Button
+            android:id="@id/btn_all_clear"
+            android:layout_column="3"
+            android:layout_row="4"
+            android:text="@string/all_clear"
+            style="@style/NavigationButton" />
+
+    </GridLayout>
+
+</LinearLayout>

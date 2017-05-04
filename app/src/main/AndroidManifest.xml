@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.dtcc.cis282student.recipegenerator">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CategoryListActivity" />
+        <activity android:name=".RecipeListActivity" />
+        <activity android:name=".IngredientListActivity" />
+        <activity android:name=".MeatListActivity" />
+        <activity android:name=".VegetableListActivity" />
+        <activity android:name=".FruitListActivity" />
+        <activity android:name=".DairyListActivity" />
+        <activity android:name=".GrainListActivity" />
+        <activity android:name=".SeafoodListActivity" />
+        <activity android:name=".SpiceListActivity" />
+        <activity android:name=".NutListActivity" />
+        <activity android:name=".OilListActivity" />
+        <activity android:name=".PopupActivity"
+            android:theme="@style/AppTheme.PopupTheme"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app name -->
+    <string name="app_name">Recipe Generator</string>
+
+    <!-- generic app strings -->
+    <string name="all_clear">Clear</string>
+    <string name="all_back">Back</string>
+
+    <!-- activity_menu -->
+    <string name="menu_title">Recipe Generator</string>
+
+    <!-- activity_categories -->
+    <string name="categories_title">Categories</string>
+    <string name="categories_find">Find</string>
+    <string name="categories_meat">Meats</string>
+    <string name="categories_veg">Vegetables</string>
+    <string name="categories_fruit">Fruits</string>
+    <string name="categories_dairy">Dairy</string>
+    <string name="categories_nut">Nuts &amp;\nLegumes</string>
+    <string name="categories_grain">Grains</string>
+    <string name="categories_sea">Seafood</string>
+    <string name="categories_spice">Spices</string>
+    <string name="categories_oil">Oils &amp;\nSauces</string>
+
+    <!-- activity_meat -->
+    <string name="meat_title">Meats</string>
+    <string name="meat_1">Ground\nBeef</string>
+    <string name="meat_2">Chicken\nBreast</string>
+    <string name="meat_3">Pork Chop</string>
+    <string name="meat_4">Lamb</string>
+    <string name="meat_5">Turkey</string>
+    <string name="meat_6">Beef\nSteak</string>
+    <string name="meat_7">Sausage</string>
+    <string name="meat_8">Bacon</string>
+    <string name="meat_9">Veal</string>
+
+    <!-- activity_vegetable -->
+    <string name="veg_title">Vegetables</string>
+    <string name="veg_1">Garlic</string>
+    <string name="veg_2">Carrot</string>
+    <string name="veg_3">Tomato</string>
+    <string name="veg_4">Bell\nPepper</string>
+    <string name="veg_5">Corn</string>
+    <string name="veg_6">Potato</string>
+    <string name="veg_7">Onion</string>
+    <string name="veg_8">Kidney\nBeans</string>
+    <string name="veg_9">Lettuce</string>
+
+    <!-- activity_fruit -->
+    <string name="fruit_title">Fruits</string>
+
+    <!-- activity_dairy -->
+    <string name="dairy_title">Dairy</string>
+
+    <!-- activity_grain -->
+    <string name="grain_title">Grains</string>
+
+    <!-- activity_sea -->
+    <string name="sea_title">Seafood</string>
+
+    <!-- activity_nut -->
+    <string name="nut_title">Nuts &amp; Legumes</string>
+
+    <!-- activity_spice -->
+    <string name="spice_title">Spices</string>
+
+    <!-- activity_oil -->
+    <string name="oil_title">Oils &amp; Sauces</string>
+
+    <!-- activity_output -->
+    <string name="output_title">Found Recipes</string>
+
+</resources>

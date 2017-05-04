@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- generic app ids -->
+    <item type="id" name="btn_all_back" />
+    <item type="id" name="btn_all_clear" />
+
+    <!-- activity_menu -->
+    <item type="id" name="activity_menu" />
+    <item type="id" name="tv_menu_title" />
+    <item type="id" name="btn_menu_start" />
+
+    <!-- activity_categories -->
+    <item type="id" name="activity_categories" />
+    <item type="id" name="tv_categories_title" />
+    <item type="id" name="btn_categories_find" />
+    <item type="id" name="btn_categories_meat" />
+    <item type="id" name="btn_categories_veg" />
+    <item type="id" name="btn_categories_fruit" />
+    <item type="id" name="btn_categories_dairy" />
+    <item type="id" name="btn_categories_nut" />
+    <item type="id" name="btn_categories_grain" />
+    <item type="id" name="btn_categories_sea" />
+    <item type="id" name="btn_categories_spice" />
+    <item type="id" name="btn_categories_oil" />
+
+    <!-- activity_categories -->
+    <item type="id" name="activity_ingredients" />
+
+    <!-- activity_meat -->
+    <item type="id" name="activity_meat" />
+    <item type="id" name="tv_meat_title" />
+    <item type="id" name="btn_meat_1" />
+    <item type="id" name="btn_meat_2" />
+    <item type="id" name="btn_meat_3" />
+    <item type="id" name="btn_meat_4" />
+    <item type="id" name="btn_meat_5" />
+    <item type="id" name="btn_meat_6" />
+    <item type="id" name="btn_meat_7" />
+    <item type="id" name="btn_meat_8" />
+    <item type="id" name="btn_meat_9" />
+
+    <!-- activity_vegetable -->
+    <item type="id" name="activity_vegetable" />
+    <item type="id" name="tv_veg_title" />
+    <item type="id" name="btn_veg_1" />
+    <item type="id" name="btn_veg_2" />
+    <item type="id" name="btn_veg_3" />
+    <item type="id" name="btn_veg_4" />
+    <item type="id" name="btn_veg_5" />
+    <item type="id" name="btn_veg_6" />
+    <item type="id" name="btn_veg_7" />
+    <item type="id" name="btn_veg_8" />
+    <item type="id" name="btn_veg_9" />
+
+    <!-- activity_fruit -->
+    <item type="id" name="activity_fruit" />
+    <item type="id" name="tv_fruit_title" />
+    <item type="id" name="btn_fruit_1" />
+    <item type="id" name="btn_fruit_2" />
+    <item type="id" name="btn_fruit_3" />
+    <item type="id" name="btn_fruit_4" />
+    <item type="id" name="btn_fruit_5" />
+    <item type="id" name="btn_fruit_6" />
+    <item type="id" name="btn_fruit_7" />
+    <item type="id" name="btn_fruit_8" />
+    <item type="id" name="btn_fruit_9" />
+
+    <!-- activity_dairy -->
+    <item type="id" name="activity_dairy" />
+    <item type="id" name="tv_dairy_title" />
+    <item type="id" name="btn_dairy_1" />
+    <item type="id" name="btn_dairy_2" />
+    <item type="id" name="btn_dairy_3" />
+    <item type="id" name="btn_dairy_4" />
+    <item type="id" name="btn_dairy_5" />
+    <item type="id" name="btn_dairy_6" />
+    <item type="id" name="btn_dairy_7" />
+    <item type="id" name="btn_dairy_8" />
+    <item type="id" name="btn_dairy_9" />
+
+    <!-- activity_grain -->
+    <item type="id" name="activity_grain" />
+    <item type="id" name="tv_grain_title" />
+    <item type="id" name="btn_grain_1" />
+    <item type="id" name="btn_grain_2" />
+    <item type="id" name="btn_grain_3" />
+    <item type="id" name="btn_grain_4" />
+    <item type="id" name="btn_grain_5" />
+    <item type="id" name="btn_grain_6" />
+    <item type="id" name="btn_grain_7" />
+    <item type="id" name="btn_grain_8" />
+    <item type="id" name="btn_grain_9" />
+
+    <!-- activity_seafood -->
+    <item type="id" name="activity_seafood" />
+    <item type="id" name="tv_sea_title" />
+    <item type="id" name="btn_sea_1" />
+    <item type="id" name="btn_sea_2" />
+    <item type="id" name="btn_sea_3" />
+    <item type="id" name="btn_sea_4" />
+    <item type="id" name="btn_sea_5" />
+    <item type="id" name="btn_sea_6" />
+    <item type="id" name="btn_sea_7" />
+    <item type="id" name="btn_sea_8" />
+    <item type="id" name="btn_sea_9" />
+
+    <!-- activity_nut -->
+    <item type="id" name="activity_nut" />
+    <item type="id" name="tv_nut_title" />
+    <item type="id" name="btn_nut_1" />
+    <item type="id" name="btn_nut_2" />
+    <item type="id" name="btn_nut_3" />
+    <item type="id" name="btn_nut_4" />
+    <item type="id" name="btn_nut_5" />
+    <item type="id" name="btn_nut_6" />
+    <item type="id" name="btn_nut_7" />
+    <item type="id" name="btn_nut_8" />
+    <item type="id" name="btn_nut_9" />
+
+    <!-- activity_spice -->
+    <item type="id" name="activity_spice" />
+    <item type="id" name="tv_spice_title" />
+    <item type="id" name="btn_spice_1" />
+    <item type="id" name="btn_spice_2" />
+    <item type="id" name="btn_spice_3" />
+    <item type="id" name="btn_spice_4" />
+    <item type="id" name="btn_spice_5" />
+    <item type="id" name="btn_spice_6" />
+    <item type="id" name="btn_spice_7" />
+    <item type="id" name="btn_spice_8" />
+    <item type="id" name="btn_spice_9" />
+
+    <!-- activity_oil -->
+    <item type="id" name="activity_oil" />
+    <item type="id" name="tv_oil_title" />
+    <item type="id" name="btn_oil_1" />
+    <item type="id" name="btn_oil_2" />
+    <item type="id" name="btn_oil_3" />
+    <item type="id" name="btn_oil_4" />
+    <item type="id" name="btn_oil_5" />
+    <item type="id" name="btn_oil_6" />
+    <item type="id" name="btn_oil_7" />
+    <item type="id" name="btn_oil_8" />
+    <item type="id" name="btn_oil_9" />
+
+    <!-- activity_output -->
+    <item type="id" name="activity_output" />
+    <item type="id" name="tv_output_title" />
+    <item type="id" name="btn_output_1" />
+    <item type="id" name="btn_output_2" />
+    <item type="id" name="btn_output_3" />
+    <item type="id" name="btn_output_4" />
+    <item type="id" name="btn_output_5" />
+    <item type="id" name="btn_output_6" />
+    <item type="id" name="btn_output_7" />
+    <item type="id" name="btn_output_8" />
+    <item type="id" name="btn_output_9" />
+
+    <!-- fragment_grid -->
+    <item type="id" name="fragment_grid" />
+    <item type="id" name="fragment_grid_pager" />
+    <item type="id" name="tv_PageTitle" />
+    <item type="id" name="pagerView" />
+    <item type="id" name="btn_1" />
+    <item type="id" name="btn_2" />
+    <item type="id" name="btn_3" />
+    <item type="id" name="btn_4" />
+    <item type="id" name="btn_5" />
+    <item type="id" name="btn_6" />
+    <item type="id" name="btn_7" />
+    <item type="id" name="btn_8" />
+    <item type="id" name="btn_9" />
+
+</resources>
